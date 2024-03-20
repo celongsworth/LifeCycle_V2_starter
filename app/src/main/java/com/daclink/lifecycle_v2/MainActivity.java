@@ -49,8 +49,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //TODO: add long click listener
-
+        button.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View view) {
+                Intent intent = ChildActivity.intentFactory(getApplicationContext(), messageOne);
+                startActivity(intent);
+                return false;
+            }
+        });
     }
 
     private void getMessage(){

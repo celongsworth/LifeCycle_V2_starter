@@ -8,8 +8,10 @@
     <string name="button1"><![CDATA[Next –>]]></string>
     <string name="true_button">True</string>
     <string name="false_button">False</string>
+    <string name="button2">Ah</string>
+    <string name="textView3">ahhh</string>
 
-    <string name="true_message">True was passed in. It will be swapped...</string>
+    <string name="true_message">True was passed in. It will be swapped…</string>
     <string name="false_message">False was passed in. \'Another message\' will be displayed on the other side.</string>
 
     <!--Copy the values above -->
